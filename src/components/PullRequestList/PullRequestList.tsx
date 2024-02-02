@@ -17,7 +17,7 @@ export default function PullRequestList({val}:{val:string}) {
         <Accordion type="single" collapsible className={"w-full"}>
             <AccordionItem value="item-1">
                 <AccordionTrigger>
-                    <h3 className="ps-14 py-2 text-3xl font-bold tracking-tighter sm:text-3xl">
+                    <h3 className="ps-14 py-2 text-2xl font-bold tracking-tighter sm:text-2xl">
                         {val}
                     </h3>
                 </AccordionTrigger>
