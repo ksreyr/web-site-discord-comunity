@@ -41,6 +41,7 @@ export default function Component() {
                   <AccordionPullRequest val={"Programming-Skills-Level0"}/>
                   <AccordionPullRequest val={"Programming-Skills-Level1"}/>
                   <AccordionPullRequest val={"Programming-Skills-Level2"}/>
+                  <AccordionPullRequest val={"Programming-Skills-Level3"}/>
               </section>
           </QueryClientProvider>
           <ManchesterInfo/>
