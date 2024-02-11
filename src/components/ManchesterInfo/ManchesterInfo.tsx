@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {getManchesterInfo, ManchesterInfo} from "@/fetch/getMatchInfo/getMatchsInfo";
-import {Title} from "@/components/Title/Index";
+import {Title} from "@/components/Title/Title";
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
 
 export default function ManchesterInfo() {

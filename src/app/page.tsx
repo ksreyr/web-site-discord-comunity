@@ -1,12 +1,12 @@
 'use client'
 import Link from "next/link"
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
 
 import {QueryClient, QueryClientProvider} from "react-query";
-import AccordionPullRequest from "@/components/AccordionPullRequest/AccordionPullRequest";
-import ManchesterInfo from "@/components/ManchesterInfo/ManchesterInfo";
-import {Button} from "@/components/ui/button";
+import AccordionPullRequest from "../components/AccordionPullRequest/AccordionPullRequest";
+import ManchesterInfo from "../components/ManchesterInfo/ManchesterInfo";
+import {Button} from "../components/ui/button";
 
 const queryClient = new QueryClient();
 export default function Component() {
