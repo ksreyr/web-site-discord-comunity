@@ -10,13 +10,13 @@ export default function Header() {
             </Link>
             <nav className="flex gap-4">
                 <Link className="text-lg font-medium hover:underline" href="#">
-                    About
+                    Challenges
                 </Link>
                 <Link className="text-lg font-medium hover:underline" href="#">
-                    Events
+                    Manchester
                 </Link>
                 <Link className="text-lg font-medium hover:underline" href="#">
-                    Contact
+                    Gold Section
                 </Link>
             </nav>
         </header>

@@ -15,7 +15,7 @@ export default function ManchesterInfo() {
     }, [])
 
     return <>
-        <h3 className="ps-14  pb-10 text-4xl tracking-tighter sm:text-4xl">
+        <h3 className="ps-14  pb-10 text-4xl  font-bold  tracking-tighter sm:text-4xl">
             {"Manchester Games"}
         </h3>
         <Card className={"flex flex-col mx-10 justify-center items-center"}>
