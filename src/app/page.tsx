@@ -22,7 +22,7 @@ export default function Component() {
                         <div className="px-4 md:px-6">
                             <div className="flex flex-col items-center space-y-4 text-center">
                                 <div className="space-y-2 flex flex-col items-center justify-center text-center">
-                                    <h1 className="text-3xl font-bold  tracking-tighter sm:text-5xl">Welcome to the Discord
+                                    <h1 className="text-3xl font-bold  tracking-tighter sm:text-5xl pb-4">Welcome to the Discord
                                         Programming Community</h1>
                                     <p className="max-w-[600px] text-gray-400 md:text-xl items-center justify-center dark:text-gray-300">
                                         Join our Discord community and connect with others to learn code.
@@ -42,6 +42,7 @@ export default function Component() {
                 </h3>
                 <QueryClientProvider client={queryClient}>
                     <section className="w-full flex flex-col items-center justify-center p-10">
+                    {/* <section className="w-full grid grid-cols-2 gap-10 items-center justify-center p-10"> */}
                         <AccordionPullRequest val={"Programming-Skills-Level0"} />
                         <AccordionPullRequest val={"Programming-Skills-Level1"} />
                         <AccordionPullRequest val={"Programming-Skills-Level2"} />
