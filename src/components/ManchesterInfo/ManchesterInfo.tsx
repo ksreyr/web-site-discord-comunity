@@ -15,10 +15,10 @@ export default function ManchesterInfo() {
     }, [])
 
     return <>
-        <h3 className="ps-14  pb-10 text-4xl  font-bold  tracking-tighter sm:text-4xl">
-            {"Manchester Games"}
+        <h3 className="ps-14  pb-10 font-bold  tracking-tighter text-3xl md:text-4xl">
+            Manchester Games
         </h3>
-        <div className="grid grid-cols-2 grid-rows-1 mb-10">
+        <div className="grid sm:grid-cols-2 grid-rows-1 mb-10 gap-4">
             <Card className={"flex flex-col mx-10 justify-center items-center"}>
                 <CardHeader>
                     <CardContent className={"flex justify-center items-center text-center"}>

@@ -37,7 +37,7 @@ export default function Component() {
                         </div>
                     </section>
                 </main>
-                <h3 className="ps-14 py-2 text-4xl font-bold tracking-tighter sm:text-4xl">
+                <h3 className="ps-14 py-2 text-3xl  font-bold tracking-tighter md:text-4xl">
                     Pull-Request
                 </h3>
                 <QueryClientProvider client={queryClient}>
@@ -50,7 +50,7 @@ export default function Component() {
                     </section>
                 </QueryClientProvider>
                 <ManchesterInfo />
-                <h3 className="ps-14 pt-10 text-4xl font-bold tracking-tighter sm:text-4xl">
+                <h3 className="ps-14 pt-10 text-3xl font-bold tracking-tighter md:text-4xl">
                     Hall Of Fame
                 </h3>
                 <section className={"ps-10 p-10 text-4xl font-bold tracking-tighter sm:text-4xl grid grid-cols-1 sm:grid-cols-2 gap-6"}>
@@ -152,10 +152,10 @@ export default function Component() {
                         </CardContent>
                     </Card>
                 </section>
-                <h3 className="ps-14 pt-10 text-4xl font-bold tracking-tighter sm:text-4xl">
+                <h3 className="ps-14 pt-10 text-3xl font-bold tracking-tighter md:text-4xl">
                     Comunity Resources
                 </h3>
-                <section className={"pt-10 pb-20 grid grid-cols-1 md:grid-cols-2  justify-items-center m-14 gap-6"}>
+                <section className={" pb-20 grid grid-cols-1 md:grid-cols-2  justify-items-center m-14 gap-6"}>
                     <div className={"w-full"}>
                         <YouTubeEmbed videoid={"vtRkSDomFZk"} />
                         <div className="text-2xl ">
