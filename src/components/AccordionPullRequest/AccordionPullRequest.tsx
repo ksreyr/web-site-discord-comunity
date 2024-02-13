@@ -17,7 +17,7 @@ export default function AccordionPullRequest({ val }: { val: string }) {
                     <AccordionTrigger>
                         <Title val={val} />
                     </AccordionTrigger>
-                    <AccordionContent className="grid grid-cols-2 gap-4">
+                    <AccordionContent className="grid lg:grid-cols-2 2xl:grid-cols-3 gap-4">
                         {data?.map((value: userInfo) => (
                             <PullRequest key={value.id} pullRInfo={value} />
                         ))}

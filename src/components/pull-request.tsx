@@ -10,13 +10,13 @@ export function PullRequest({pullRInfo}:Created) {
       <section>
           <Card>
               <CardContent>
-                  <div className="flex justify-center items-center gap-6">
+                  <div className="flex flex-col sm:flex-row text-center sm:text-left justify-center items-center gap-1 sm:gap-6">
                       <Avatar className={"md:h-40 md:w-40  h-20 w-20 m-0 md:m-2"}>
                           <AvatarImage src={pullRInfo.avatarUrl}/>
                           <AvatarFallback>VC</AvatarFallback>
                       </Avatar>
                       <div className="space-y-1 max-w-60">
-                          <CardTitle>Author: {pullRInfo.userName}</CardTitle>
+                          <CardTitle className="text-xl sm:text-2xl">Author: {pullRInfo.userName}</CardTitle>
                           <CardDescription>{pullRInfo.title}</CardDescription>
                           <CardDescription>Status: Open</CardDescription>
                           <div className={"w-full"}>

@@ -37,12 +37,11 @@ export default function Component() {
                         </div>
                     </section>
                 </main>
-                <h3 className="ps-14 py-2 text-4xl font-bold tracking-tighter sm:text-4xl">
+                <h3 className="ps-14 py-2 text-3xl  font-bold tracking-tighter md:text-4xl">
                     Pull-Request
                 </h3>
                 <QueryClientProvider client={queryClient}>
                     <section className="w-full flex flex-col items-center justify-center p-10 mb-10">
-                    {/* <section className="w-full grid grid-cols-2 gap-10 items-center justify-center p-10"> */}
                         <AccordionPullRequest val={"Programming-Skills-Level0"} />
                         <AccordionPullRequest val={"Programming-Skills-Level1"} />
                         <AccordionPullRequest val={"Programming-Skills-Level2"} />
@@ -50,14 +49,14 @@ export default function Component() {
                     </section>
                 </QueryClientProvider>
                 <ManchesterInfo />
-                <h3 className="ps-14 pt-10 text-4xl font-bold tracking-tighter sm:text-4xl">
+                <h3 className="ps-14 pt-10 text-3xl font-bold tracking-tighter md:text-4xl">
                     Hall Of Fame
                 </h3>
-                <section className={"ps-10 p-10 text-4xl font-bold tracking-tighter sm:text-4xl grid grid-cols-2 gap-4"}>
-                    <Card className={"my-6"}>
+                <section className={"ps-10 p-10 text-4xl font-bold tracking-tighter sm:text-4xl grid grid-cols-1 sm:grid-cols-2 gap-6"}>
+                    <Card>
                         <CardContent>
-                            <div className="flex justify-start items-center space-x-4">
-                                <Avatar className={"md:h-40 md:w-40  h-20 w-20 m-0 md:m-2"}>
+                            <div className="flex justify-start items-center gap-3">
+                                <Avatar className={"lg:h-40 lg:w-40  h-20 w-20 m-0 md:m-2"}>
                                     <AvatarImage src={"https://avatars.githubusercontent.com/u/151563799?v=4"} />
                                     <AvatarFallback>VC</AvatarFallback>
                                 </Avatar>
@@ -78,9 +77,9 @@ export default function Component() {
                             </div>
                         </CardContent>
                     </Card>
-                    <Card className={"my-6"}>
+                    <Card>
                         <CardContent>
-                            <div className="flex justify-start items-center space-x-4">
+                            <div className="flex justify-start items-center gap-3">
 
                                 <div className="space-y-1 w-full">
                                     <CardTitle> {"blindma1den" + ":: "}Daniela</CardTitle>
@@ -96,17 +95,17 @@ export default function Component() {
                                         </Link>
                                     </div>
                                 </div>
-                                <Avatar className={"md:h-40 md:w-40  h-20 w-20 m-0 md:m-2"}>
+                                <Avatar className={"lg:h-40 lg:w-40  h-20 w-20 m-0 md:m-2"}>
                                     <AvatarImage src={"https://avatars.githubusercontent.com/u/16064310?v=4"} />
                                     <AvatarFallback>VC</AvatarFallback>
                                 </Avatar>
                             </div>
                         </CardContent>
                     </Card>
-                    <Card className={"my-6"}>
+                    <Card>
                         <CardContent>
-                            <div className="flex justify-start items-center space-x-4">
-                                <Avatar className={"md:h-40 md:w-40  h-20 w-20 m-0 md:m-2"}>
+                            <div className="flex justify-start items-center gap-3">
+                                <Avatar className={"lg:h-40 lg:w-40  h-20 w-20 m-0 md:m-2"}>
                                     <AvatarImage src={"https://avatars.githubusercontent.com/u/17256988?v=4"} />
                                     <AvatarFallback>VC</AvatarFallback>
                                 </Avatar>
@@ -127,9 +126,9 @@ export default function Component() {
                             </div>
                         </CardContent>
                     </Card>
-                    <Card className={"my-6"}>
+                    <Card>
                         <CardContent>
-                            <div className="flex justify-start items-center space-x-4">
+                            <div className="flex justify-start items-center gap-3">
                                 <div className="space-y-1 w-full">
                                     <CardTitle> {"Krieg" + ":: "}Fernando</CardTitle>
                                     <CardDescription>{"Developer"}</CardDescription>
@@ -144,7 +143,7 @@ export default function Component() {
                                         </Link>
                                     </div>
                                 </div>
-                                <Avatar className={"md:h-40 md:w-40  h-20 w-20 m-0 md:m-2"}>
+                                <Avatar className={"lg:h-40 lg:w-40  h-20 w-20 m-0 md:m-2"}>
                                     <AvatarImage src={"https://avatars.githubusercontent.com/u/15350164?v=4"} />
                                     <AvatarFallback>VC</AvatarFallback>
                                 </Avatar>
@@ -152,10 +151,10 @@ export default function Component() {
                         </CardContent>
                     </Card>
                 </section>
-                <h3 className="ps-14 pt-10 text-4xl font-bold tracking-tighter sm:text-4xl">
+                <h3 className="ps-14 pt-10 text-3xl font-bold tracking-tighter md:text-4xl">
                     Comunity Resources
                 </h3>
-                <section className={"pt-10 pb-20 grid grid-cols-1 md:grid-cols-2  justify-items-center m-14 gap-6"}>
+                <section className={" pb-20 grid grid-cols-1 md:grid-cols-2  justify-items-center m-14 gap-6"}>
                     <div className={"w-full"}>
                         <YouTubeEmbed videoid={"vtRkSDomFZk"} />
                         <div className="text-2xl ">
