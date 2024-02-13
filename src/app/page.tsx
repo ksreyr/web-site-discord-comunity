@@ -53,8 +53,8 @@ export default function Component() {
                 <h3 className="ps-14 pt-10 text-4xl font-bold tracking-tighter sm:text-4xl">
                     Hall Of Fame
                 </h3>
-                <section className={"ps-10 p-10 text-4xl font-bold tracking-tighter sm:text-4xl grid grid-cols-2 gap-4"}>
-                    <Card className={"my-6"}>
+                <section className={"ps-10 p-10 text-4xl font-bold tracking-tighter sm:text-4xl grid grid-cols-1 sm:grid-cols-2 gap-6"}>
+                    <Card>
                         <CardContent>
                             <div className="flex justify-start items-center space-x-4">
                                 <Avatar className={"md:h-40 md:w-40  h-20 w-20 m-0 md:m-2"}>
@@ -78,7 +78,7 @@ export default function Component() {
                             </div>
                         </CardContent>
                     </Card>
-                    <Card className={"my-6"}>
+                    <Card>
                         <CardContent>
                             <div className="flex justify-start items-center space-x-4">
 
@@ -103,7 +103,7 @@ export default function Component() {
                             </div>
                         </CardContent>
                     </Card>
-                    <Card className={"my-6"}>
+                    <Card>
                         <CardContent>
                             <div className="flex justify-start items-center space-x-4">
                                 <Avatar className={"md:h-40 md:w-40  h-20 w-20 m-0 md:m-2"}>
@@ -127,7 +127,7 @@ export default function Component() {
                             </div>
                         </CardContent>
                     </Card>
-                    <Card className={"my-6"}>
+                    <Card>
                         <CardContent>
                             <div className="flex justify-start items-center space-x-4">
                                 <div className="space-y-1 w-full">
