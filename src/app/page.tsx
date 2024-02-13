@@ -41,7 +41,7 @@ export default function Component() {
                     Pull-Request
                 </h3>
                 <QueryClientProvider client={queryClient}>
-                    <section className="w-full flex flex-col items-center justify-center p-10">
+                    <section className="w-full flex flex-col items-center justify-center p-10 mb-10">
                     {/* <section className="w-full grid grid-cols-2 gap-10 items-center justify-center p-10"> */}
                         <AccordionPullRequest val={"Programming-Skills-Level0"} />
                         <AccordionPullRequest val={"Programming-Skills-Level1"} />
@@ -53,7 +53,7 @@ export default function Component() {
                 <h3 className="ps-14 pt-10 text-4xl font-bold tracking-tighter sm:text-4xl">
                     Hall Of Fame
                 </h3>
-                <section className={"ps-10 p-10 text-4xl font-bold tracking-tighter sm:text-4xl"}>
+                <section className={"ps-10 p-10 text-4xl font-bold tracking-tighter sm:text-4xl grid grid-cols-2 gap-4"}>
                     <Card className={"my-6"}>
                         <CardContent>
                             <div className="flex justify-start items-center space-x-4">
@@ -66,11 +66,11 @@ export default function Component() {
                                     <CardDescription>{"Developer"}</CardDescription>
                                     <div className={"w-full grid grid-cols-1 md:grid-cols-2 gap-1"}>
                                         <Link href={"https://github.com/snant-dev"}
-                                            className="inline-flex w-full h-20 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
+                                            className="inline-flex w-full h-12 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
                                             Link to Github
                                         </Link>
                                         <Link href={"https://github.com/snant-dev"}
-                                            className="inline-flex w-full h-20 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
+                                            className="inline-flex w-full h-12 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
                                             Link to X
                                         </Link>
                                     </div>
@@ -87,11 +87,11 @@ export default function Component() {
                                     <CardDescription>{"Main Red-Devil"}</CardDescription>
                                     <div className={"w-full grid grid-cols-1 md:grid-cols-2 gap-1"}>
                                         <Link href={"https://github.com/blindma1den"}
-                                            className="inline-flex w-full h-20 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
+                                            className="inline-flex w-full h-12 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
                                             Link to Github
                                         </Link>
                                         <Link href={"https://github.com/blindma1den"}
-                                            className="inline-flex w-full h-20 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
+                                            className="inline-flex w-full h-12 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
                                             Link to X
                                         </Link>
                                     </div>
@@ -115,11 +115,11 @@ export default function Component() {
                                     <CardDescription>{"Developer"}</CardDescription>
                                     <div className={"w-full grid grid-cols-1 md:grid-cols-2 gap-1"}>
                                         <Link href={"https://github.com/ksreyr"}
-                                            className="inline-flex w-full h-20 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
+                                            className="inline-flex w-full h-12 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
                                             Link to Github
                                         </Link>
                                         <Link href={"https://github.com/ksreyr"}
-                                            className="inline-flex w-full h-20 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
+                                            className="inline-flex w-full h-12 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
                                             Link to X
                                         </Link>
                                     </div>
@@ -135,11 +135,11 @@ export default function Component() {
                                     <CardDescription>{"Developer"}</CardDescription>
                                     <div className={"w-full grid grid-cols-1 md:grid-cols-2 gap-1"}>
                                         <Link href={"https://github.com/blindma1den"}
-                                            className="inline-flex w-full h-20 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
+                                            className="inline-flex w-full h-12 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
                                             Link to Github
                                         </Link>
                                         <Link href={"https://github.com/FernandoJCa"}
-                                            className="inline-flex w-full h-20 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
+                                            className="inline-flex w-full h-12 items-center justify-center rounded-md bg-gray-800 px-10 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-500 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-800 dark:hover:bg-gray-200 dark:focus-visible:ring-gray-400">
                                             Link to X
                                         </Link>
                                     </div>
