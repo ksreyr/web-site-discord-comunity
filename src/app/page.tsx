@@ -30,7 +30,7 @@ export default function Component() {
                                 </div>
                                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                                     <Button asChild>
-                                        <Link href="/login"> See Github</Link>
+                                        <a href="https://github.com/ksreyr/web-site-discord-comunity" target="_blank"> See Github</a>
                                     </Button>
                                 </div>
                             </div>
